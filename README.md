@@ -1,67 +1,86 @@
-# 🧠 Social Media Hate Speech Detection (ML + MLOps Practice)
+🧠 Machine Learning & MLOps Practice Roadmap
 
-This repository contains practice notebooks and project implementations related to Machine Learning and MLOps concepts using a Social Media Hate Speech Dataset.
+This repository contains a structured day-wise learning journey covering core Machine Learning concepts, algorithms, and MLOps fundamentals using Python.
 
----
+Each folder represents a focused learning day with hands-on implementations, mini-projects, and experiments.
 
-## 📌 Project Overview
+📁 Repository Structure
+DAY-1 → Introduction & Real-Time ML Practice
+DAY-2 → Linux Commands for ML & Environment Basics
+DAY-3 → Data Preparation & Regression Basics
+DAY-4 → Classification + Model Persistence (MLOps Basics)
+DAY-5 → Advanced ML Algorithms & Tree-Based Models
+DAY-6 → Probability-Based & Distance-Based Algorithms
 
-This project focuses on building a machine learning pipeline to detect and classify harmful or hate speech content in social media text.
+📌 Day-wise Breakdown
 
-It is designed as a learning project for strengthening ML fundamentals and MLOps practices.
+📘 DAY-1: Real-Time ML Practice
+Real-time machine learning practice notebook
+Understanding basic ML workflow
+Introduction to problem solving using ML mindset
 
----
 
-## ⚙️ Key Workflow
+💻 DAY-2: Linux Commands for ML
+Basic Linux commands for data handling
+File system navigation
+Environment setup practice for ML workflows
 
-**1. Data Preprocessing**  
-Cleaning and preparing raw text data for modeling.
 
-**2. Train-Test Split**  
-Dividing dataset into training and testing sets.
+📊 DAY-3: Data Handling & Regression
+dataset.csv exploration
+Linear Regression implementation
+Multivariate regression practice
+Data preprocessing fundamentals
 
-**3. Feature Engineering**  
-Applying one-hot encoding and text vectorization techniques.
 
-**4. Model Training**  
-Training a Logistic Regression model for classification.
+⚙️ DAY-4: Classification & MLOps Basics
+HR dataset (Logistic Regression)
+Train-test split
+One-hot encoding
+Model saving & loading using:
+Pickle
+Joblib
+Serialization workflow practice
 
-**5. Model Serialization**  
-Saving and loading models using Pickle and Joblib.
 
-**6. Prediction**  
-Classifying social media text as hate speech or not.
+🌳 DAY-5: Advanced ML Models
+Factory Machine dataset analysis
+Decision Tree (Titanic-style problem)
+Random Forest implementation
+K-Means Clustering
+Logistic Regression revision
+Iris dataset classification (iris.ipynb)
 
----
 
-## 🎯 Project Goal
+📐 DAY-6: Probability & Distance-Based Models
+Gaussian Models / Naive Bayes concepts
+K-Nearest Neighbors (KNN)
+Understanding distance-based classification
 
-The main objective of this project is to:
 
-- Detect and classify harmful or hate speech content in social media text using Machine Learning techniques  
-- Strengthen understanding of ML pipeline development  
-- Practice MLOps fundamentals such as model saving, loading, and deployment readiness  
+🛠️ Technologies Used
+Python 🐍
+Pandas
+NumPy
+Scikit-learn
+Matplotlib (optional visualization)
+Pickle & Joblib
+Jupyter Notebook / Google Colab
 
----
 
-## 🛠️ Technologies Used
+🎯 Learning Outcome
 
-- Python 🐍  
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- Pickle  
-- Joblib  
-- Google Colab  
+By completing this repository, you will gain:
 
----
+Strong foundation in Machine Learning pipeline
+Hands-on experience with multiple ML algorithms
+Understanding of preprocessing & feature engineering
+Model serialization (MLOps basics)
+Exposure to real-world datasets and workflows
 
-## 🚀 Learning Outcomes
 
-- ML model building from scratch  
-- Data preprocessing and feature engineering  
-- Text classification techniques  
-- Model persistence (Pickle & Joblib)  
-- Basic MLOps workflow understanding  
+🚀 Purpose of This Repo:
 
----
+This repository is designed as a step-by-step ML learning track, helping you move from:
+
+Basics → Regression → Classification → Clustering → Advanced Algorithms → MLOps fundamentals
